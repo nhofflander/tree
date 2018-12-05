@@ -1,23 +1,14 @@
 #Hello Improved
 
-import java.util.Scanner;
+Learning objective: explore GitHub, students will be able to describe what this resource is and how to use it.
 
-public class Hello
-{
-  public static void main(String []args)
-  {
-    int max, number;
-    Scanner scan = new Scanner(System.in);
-    
-    System.out.print ("Enter 5 integers: ");
-    max = scan.nextInt();
-    for (int count = 2; count <= 5; count++)
-    {
-      System.out.print ("Enter another integer: ");
-      number = scan.nextInt();
-      if (number > max)
-        max = number;
-    }
-    System.out.println ("The highest value is :" + max);
-  }
-}
+GitHub is a web-based version-control and collaboration platform for software developers.
+Words to know:
+Repository
+Branching
+Commit
+Pull
+
+TEAM TASKS
+1) What are the user permissions (what can "role" do?)
+2) When you branch off a branch, where does the commit apply?
