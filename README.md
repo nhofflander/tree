@@ -1,6 +1,4 @@
 # tree
-period Poggers java
-
 Here we can keep our projects and offer peer reviews.
 As many programs will get marvelously more complicated, we'll want a place for idea getting and future starting points, versioning, etc.
 
