@@ -13,9 +13,9 @@ public class Hello
     int max, number;
     Scanner scan = new Scanner(System.in);
     
-    System.out.print ("Enter 5 integers: ");
+    System.out.print ("Enter 6 integers: ");
     max = scan.nextInt();
-    for (int count = 2; count <= 5; count++)
+    for (int count = 0; count <= 6; count++)
     {
       System.out.print ("Enter another integer: ");
       number = scan.nextInt();
