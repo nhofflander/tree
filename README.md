@@ -1,7 +1,21 @@
-# tree
-Here we can keep our projects and offer peer reviews.
-As many programs will get marvelously more complicated, we'll want a place for idea getting and future starting points, versioning, etc.
+import java.util.Scanner;
 
-How does all this work?
-
-Git is a version-control system for tracking changes in computer files and coordinating work on those files among multiple people. It is primarily used for source-code management in software development, but it can be used to keep track of changes in any set of files.
+public class Hello
+{
+  public static void main(String []args)
+  {
+    int max, number;
+    Scanner scan = new Scanner(System.in);
+    
+    System.out.print ("Enter 5 integers: ");
+    max = scan.nextInt();
+    for (int count = 2; count <= 5; count++)
+    {
+      System.out.print ("Enter another integer: ");
+      number = scan.nextInt();
+      if (number > max)
+        max = number;
+    }
+    System.out.println ("The highest value is :" + max);
+  }
+}
