@@ -7,3 +7,5 @@ As many programs will get marvelously more complicated, we'll want a place for i
 How does all this work?
 
 Git is a version-control system for tracking changes in computer files and coordinating work on those files among multiple people. It is primarily used for source-code management in software development, but it can be used to keep track of changes in any set of files.
+
+I'm editing in period3 branch. Commit this.
